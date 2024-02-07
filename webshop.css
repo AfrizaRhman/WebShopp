@@ -1,0 +1,507 @@
+*{
+    padding:0px ;
+    margin:0px ;
+    background: gray;
+}
+.keren{
+    background-color: white;
+    margin-left:120px ;
+    margin-right:120px ;
+    height: 50px;
+    display: flex;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom: 4px solid black;
+}
+.keren a{
+    color: gray;
+    text-decoration: none;
+    margin-left: 100px;
+    transition: .3s;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+}
+.keren a:hover,
+.keren a.active{
+    color: black;
+}
+.keren h3{
+    font-size: 20px;
+    background-color: white;
+}
+.keren h1{
+    margin-left: 360px;
+    background-color: white;
+    font-size: 40px;
+    font-style: italic;
+    
+}
+.kesatu{
+    margin-left: 90px;
+    display: flex;
+}
+.kesatu h4{
+  margin-top: 40px;
+  margin-left: 400px;
+  color: white;
+  font-size: 80px;
+  margin-left: 40px;
+  text-shadow: 5px 5px black;
+  font-style: italic;  
+}
+.gambar1 img{
+    border: 2px solid black;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: 300px;
+    margin-left: 100px;
+    width: 300px;
+    box-shadow: 10px 10px` black;
+}
+.gambar2 img{
+    border: 2px solid black;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    margin-left: 620px;
+    box-shadow: 10px 10px rgb(49, 49, 49);
+    height: 350px;
+    width: 250px;
+    margin-top: 50px;
+}
+.container-gambar{
+    display: flex;
+}
+.pertengahan-1{
+    background-color: white;
+    height:550px ;
+    width: auto;
+    margin-top: 80px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+}
+.tulisan{
+    background-color: white;
+}
+.tulisan h2{
+    background-color: white;
+    font-style: italic;
+    padding-top: 50px;
+    margin-left: 550px;
+    font-size:30px ;
+}
+.tulisan h4{
+    background-color: white;
+    font-style: italic;
+    margin-left: 490px;
+    font-size: 20px;
+}
+.container-1{
+    display: flex;
+    margin-top: 100px;
+    gap: 250px;
+    background: white;
+    margin-left: 120px;
+}
+.box1{
+    background-color:white ;
+    height: 300px;
+    width: 200px;
+    border-radius:10px ;
+    box-shadow: 10px 10px 10px 10px rgb(90, 90, 90);
+}
+.box1 img{
+    height:200px ;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+.pertengahan-box1{
+    background-color: grey;
+    width: 200px;
+    height: 40px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+}
+.pertengahan-box1 a{
+    color: black;
+    transition: .3s;
+    font-weight: bold;
+    list-style: none;
+}
+.pertengahan-box1 a:hover,
+.pertengahan-box1 a.active{
+    color: rgb(39, 39, 39);
+}
+.pertengahan-box1 h4{
+    margin-left: 80px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.box2{
+    background-color:white ;
+    height: 300px;
+    width: 200px;
+    border-radius:10px ;
+    box-shadow: 10px 10px 10px 10px rgb(90, 90, 90);
+}
+.box2 img{
+    height:200px ;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+.pertengahan-box2{
+    background-color: grey;
+    width: 200px;
+    height: 40px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+}
+.pertengahan-box2 a{
+    color: black;
+    transition: .3s;
+    font-weight: bold;
+    list-style: none;
+}
+.pertengahan-box2 a:hover,
+.pertengahan-box2 a.active{
+    color: rgb(39, 39, 39);
+}
+.pertengahan-box2 h4{
+    margin-left: 80px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.box3{
+    background-color:white ;
+    height: 300px;
+    width: 200px;
+    border-radius:10px ;
+    box-shadow: 10px 10px 10px 10px rgb(90, 90, 90);
+}
+.box3 img{
+    height:200px ;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+.pertengahan-box3{
+    background-color: grey;
+    width: 200px;
+    height: 40px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+}
+.pertengahan-box3 a{
+    color: black;
+    transition: .3s;
+    font-weight: bold;
+    list-style: none;
+}
+.pertengahan-box3 a:hover,
+.pertengahan-box3 a.active{
+    color: rgb(39, 39, 39);
+}
+.pertengahan-box3 h4{
+    margin-left: 80px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.pertengahan-2{
+    background: grey;
+    height:1000px ;
+    width: auto;
+}
+.tulisan-2 h2{
+    margin-left: 530px;
+    margin-top: 100px;
+    font-size:30px ;
+    font-style: italic;
+}
+.container-2{
+    display: flex;
+    margin-top: 80px;
+    gap: 180px;
+}
+.box4{
+    background-color:white ;
+    height: 300px;
+    width: 300px;
+    border-radius:10px ;
+    box-shadow: 10px 10px 10px 10px rgb(12, 11, 11);
+}
+.box4 img{
+    height:200px ;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.pertengahan-4{
+    background-color: grey;
+    width: auto;
+    height: 60px;
+    border-bottom:3px solid grey ;
+    border-top:5px solid black ;
+}
+.pertengahan-4 a{
+    color: black;
+    transition: .3s;
+    font-weight: bold;
+}
+.pertengahan-4 a:hover,
+.pertengahan-4 a.active{
+    color: rgb(39, 39, 39);
+}
+.pertengahan-4 h4{
+    margin-left: 80px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.box5{
+    background-color:white ;
+    height: 300px;
+    width: 300px;
+    border-radius:10px ;
+    box-shadow: 10px 10px 10px 10px rgb(12, 11, 11);
+}
+.box5 img{
+    height:200px ;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.pertengahan-5{
+    background-color: grey;
+    width: auto;
+    height: 60px;
+    border-bottom:3px solid grey ;
+    border-top:5px solid black ;
+}
+.pertengahan-5 a{
+    color: black;
+    transition: .3s;
+    font-weight: bold;
+}
+.pertengahan-5 a:hover,
+.pertengahan-5 a.active{
+    color: rgb(39, 39, 39);
+}
+.pertengahan-5 h4{
+    margin-left: 80px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.box6{
+    background-color:white ;
+    height: 300px;
+    width: 300px;
+    border-radius:10px ;
+    box-shadow: 10px 10px 10px 10px rgb(12, 11, 11);
+}
+.box6 img{
+    height:200px ;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.pertengahan-6{
+    background-color: grey;
+    width: auto;
+    height: 60px;
+    border-bottom:3px solid grey ;
+    border-top:5px solid black ;
+}
+.pertengahan-6 a{
+    color: black;
+    transition: .3s;
+    font-weight: bold;
+}
+.pertengahan-6 a:hover,
+.pertengahan-6 a.active{
+    color: rgb(39, 39, 39);
+}
+.pertengahan-6 h4{
+    margin-left: 80px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.box7{
+    background-color:white ;
+    height: 300px;
+    width: 300px;
+    border-radius:10px ;
+    box-shadow: 10px 10px 10px 10px rgb(12, 11, 11);
+}
+.box7 img{
+    height:200px ;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.pertengahan-7{
+    background-color: grey;
+    width: auto;
+    height: 60px;
+    border-bottom:3px solid grey ;
+    border-top:5px solid black ;
+}
+.pertengahan-7 a{
+    color: black;
+    transition: .3s;
+    font-weight: bold;
+}
+.pertengahan-7 a:hover,
+.pertengahan-7 a.active{
+    color: rgb(39, 39, 39);
+}
+.pertengahan-7 h4{
+    margin-left: 80px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.container-3{
+    display: flex;
+    margin-top: 70px;
+    gap: 250px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+}
+.box8{
+    background-color:white ;
+    height: 300px;
+    width: 200px;
+    border-radius:10px ;
+    box-shadow: 10px 10px 10px 10px rgb(12, 11, 11);
+}
+.box8 img{
+    height:200px ;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.pertengahan-8{
+    background-color: grey;
+    width: auto;
+    height: 60px;
+    border-bottom:3px solid grey ;
+    border-top:5px solid black ;
+}
+.pertengahan-8 a{
+    color: black;
+    transition: .3s;
+    font-weight: bold;
+}
+.pertengahan-8 a:hover,
+.pertengahan-8 a.active{
+    color: rgb(39, 39, 39);
+}
+.pertengahan-8 h4{
+    margin-left: 80px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.box9{
+    background-color:white ;
+    height: 300px;
+    width: 200px;
+    border-radius:10px ;
+    box-shadow: 10px 10px 10px 10px rgb(12, 11, 11);
+}
+.box9 img{
+    height:200px ;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.pertengahan-9{
+    background-color: grey;
+    width: auto;
+    height: 60px;
+    border-bottom:3px solid grey ;
+    border-top:5px solid black ;
+}
+.pertengahan-9 a{
+    color: black;
+    transition: .3s;
+    font-weight: bold;
+}
+.pertengahan-9 a:hover,
+.pertengahan-9 a.active{
+    color: rgb(39, 39, 39);
+}
+.pertengahan-9 h4{
+    margin-left: 80px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.box10{
+    background-color:white ;
+    height: 300px;
+    width: 200px;
+    border-radius:10px ;
+    box-shadow: 10px 10px 10px 10px rgb(12, 11, 11);
+}
+.box10 img{
+    height:200px ;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.pertengahan-10{
+    background-color: grey;
+    width: auto;
+    height: 60px;
+    border-bottom:3px solid grey ;
+    border-top:5px solid black ;
+}
+.pertengahan-10 a{
+    color: black;
+    transition: .3s;
+    font-weight: bold;
+}
+.pertengahan-10 a:hover,
+.pertengahan-10 a.active{
+    color: rgb(39, 39, 39);
+}
+.pertengahan-10 h4{
+    margin-left: 80px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.pertengahan-3{
+    background: white;
+    height: 400px;
+    width: auto;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+}
+.tulisan-4 h2{
+    padding-left: 550px;
+    padding-top: 90px;
+    font-size: 30px;
+    background-color: white;
+}
+.tulisan-4 p{
+    padding-left: 500px ;
+    padding-top: 30px;
+    font-size: 15px;
+    background-color: white;
+}
+.background{
+    height:150px ;
+    width:auto ;
+    background-color: grey;
+    border-bottom: 5px solid black;
+}
